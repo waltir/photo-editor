@@ -741,11 +741,7 @@ h1 {
     </style>
 </head>
 <body>
-    <!-- <div class="nav-top">
-            <a class="logo nav-top_sub gulp-test" active>Logo</a>
-            <a class="nav-top_sub">contact</a>
-            <a class="nav-top_sub">help</a>
-    </div> -->
+
     <div class="nav-side" id="mobileMenu">
 
             <!-- STEP ADJUSTMENT SECTION -->
@@ -853,13 +849,7 @@ h1 {
                     <span class="range-slider__value">0</span>
                     </div>
                 </div>
-                <!-- <div class="range-slider">
-                        <label for="greyscale">Greyscale</label>
-                        <div class="range-group">
-                        <input class="range-slider__range" id="greyscale" name="greyscale" type="range" min="0" max="100" value="0">
-                        <span class="range-slider__value">0</span>
-                        </div>
-                    </div> -->
+
                 <div class="range-slider">
                         <label for="saturation">Saturation</label>
                         <div class="range-group">
@@ -959,13 +949,10 @@ h1 {
                 <div id="openAbout" class="aboutNav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <p>About.</p>
-                    <p>Waltir.io – Previously I worked as a photographer before entering the tech world as a QA Engineer working on products for VSCO (Visual Supply Company) an art and technology company in Oakland CA. I spent most of my life living in northern California and recently moved to the greater Orlando area with my wife. I now work as a QA Engineer for the 3rd largest radio network and media company in the US. I test internal products and tools, hundreds of mobile applications, and hundreds of websites.</p>
-                            <p>This blog was created as a way to share my projects and document the information I am learning while expanding on my knowledge of automation and web development. I do not claim to be an expert on any of the topics discussed on this blog.</p>
-                            
-                            <p>This website is dedicated to my grandfather Walter who passed in 2017. Although he might not have understood what I was doing I know he was proud. Just as proud as I was of him.</p>
+                    <p>Waltir.com – General about section...</p>
                 </div>
                       
-            <h1 class="nav-logo" style="margin-bottom:50px;padding:10px;">waltir.</h1>
+            <h1 class="nav-logo" style="margin-bottom:50px;padding:10px;">waltir</h1>
             <div style="font-size:30px;cursor:pointer" onclick="openRange()"><i class="fa fa-sliders" aria-hidden="true"></i></div>
             <div style="font-size:30px;cursor:pointer" onclick="openPresets()"><i class="fa fa-camera-retro" aria-hidden="true"></i></div>
             <div style="font-size:30px;cursor:pointer" onclick="toggleFunction()" id="canvasBeforeBtn"><i class="fa fa-eye" aria-hidden="true"></i></div>
@@ -994,98 +981,8 @@ h1 {
     </div>
     <div class="nav-bottom">
             <a href="javascript:void(0)" class="mobileMenuCloseBtn" onclick="closeMobileMenu()">[x]</a>
-            <p class="nav-bottom_items">© 2018 waltir.com</p>
+            <p class="nav-bottom_items">© 2019 waltir.com</p>
     </div>
-    <!-- <div class="filter-buttons">
-    <div class="filter-group">
-        <button id="brightness-dec">-</button>
-        <span class="filter-name">Brightness</span>
-        <button id="brightness-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="contrast-dec">-</button>
-        <span class="filter-name">Contrast</span>
-        <button id="contrast-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="saturation-dec">-</button>
-        <span class="filter-name">Saturation</span>
-        <button id="saturation-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="vibrance-dec">-</button>
-        <span class="filter-name">Vibrance</span>
-        <button id="vibrance-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="exposure-dec">-</button>
-        <span class="filter-name">Exposure</span>
-        <button id="exposure-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="noise-dec" class="disabled">-</button>
-        <span class="filter-name">Noise</span>
-        <button id="noise-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="sharpen-dec" class="disabled">-</button>
-        <span class="filter-name">Sharpen</span>
-        <button id="sharpen-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="sepia-dec" class="disabled">-</button>
-        <span class="filter-name">Sepia</span>
-        <button id="sepia-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="hue-dec" class="disabled">-</button>
-        <span class="filter-name">Hue</span>
-        <button id="hue-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="blur-dec" class="disabled">-</button>
-        <span class="filter-name">Blur</span>
-        <button id="blur-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="gamma-dec" class="disabled">-</button>
-        <span class="filter-name">Gamma</span>
-        <button id="gamma-inc">+</button>
-    </div>
-    <div class="filter-group">
-        <button id="clip-dec" class="disabled">-</button>
-        <span class="filter-name">Clip</span>
-        <button id="clip-inc">+</button>
-    </div>
-    <div class="filter-group">
-            <label for="hue">Contrast</label>
-        <div class="range-slider">
-                    <input class="range-slider__range" id="contrast" name="contrast" type="range" min="-20" max="20" value="0">
-                    <span class="range-slider__value">0</span>
-            </div>
-            <label for="hue">Contrast</label>
-            <input id="contrast" name="contrast" type="range" min="-20" max="20" value="0">
-            <label for="sepia">Sepia</label>
-            <input id="sepia" name="sepia" type="range" min="0" max="50" value="0">
-    </div>
-    </div>
-    <div class="editor-buttons">
-        <input type="file" id="upload-file" placeholder="Upload a Picture" />
-        <label for="upload-file">Upload a Picture</label>
-        <button id="download-btn">Download Image</button>
-        <button id="reset-btn">Reset Image</button>
-        <button id="black-btn">Black</button>
-        <button id="white-btn">White</button>
-        <br/>
-        <button id="vintage-btn">Vintage</button>
-        <button id="lomo-btn">Lomo</button>
-        <button id="clarity-btn">Clarity</button>
-        <button id="sincity-btn">Sin City</button>
-        <button id="crossprocess-btn">Cross Process</button>
-        <button id="pinhole-btn">Pinhole</button>
-        <button id="nostalgia-btn">Nostalgia</button>
-        <button id="majestic-btn">Her Majesty</button>
-    </div> -->
 <script>
 var img = new Image();
 var canvas = document.getElementById("canvas");
@@ -1294,13 +1191,6 @@ $("#crossprocess-btn").on("click", function(e) {
     });
   });
 
-//   $("#crossprocess-btn").on("click", function(e) {
-//     Caman("#canvas", img, function() {
-//       this.revert(false);
-//       this.crossProcess().render();
-//     });
-//   });
-
   $("#pinhole-btn").on("click", function(e) {
     Caman("#canvas", img, function() {
       this.revert(false);
@@ -1446,19 +1336,6 @@ function toggleFunction() {
     $("#canvasBeforeSection").toggleClass("display-none");    
     $("#canvasBeforeSection").toggleClass("display-inline");
 }
-
-// document.getElementById("canvasBefore").style.display = "none";
-// $("#canvasBeforeBtn").on("click", function(e).toggle() {
-//     $( "#canvasBefore" ).toggle(function() {
-//         document.getElementById("canvasBefore").style.display = "block";
-//         document.getElementById("canvas").style.maxWidth = "50%";
-// }, function() {
-//     document.getElementById("canvasBefore").style.display = "none";
-//     document.getElementById("canvas").style.maxWidth = "100%";
-// });
-//     console.log('Image reset')
-// });
-
 
 function openMobileMenu() {
     document.getElementById("mobileMenu").style.display = "block";
